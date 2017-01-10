@@ -1,0 +1,515 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="timorleste at live dot com | T | 2000 | AudioVisual GIS and Archive Development in Timor Leste">
+    <meta name="description" content="Our mission is to help facilitate the newly independent East-Timor in accessing the voices and the key events in its past and fostering an understanding of its unique cultural heritage; to help unite and secure the identity of the country and its people; and to contribute to the forging of a new democratic nation. To ensure the survival of unique resources which contain and communicate the experience and the story of Timor-Leste and to place these at the service of peace and understanding, in Timor-Leste, Regionally and Internationally.">
+    <meta name="keywords" content="Information, Technology, Media, System, Management, Audio, Visual, Archive, CAMSTL, East-Timor, Timor-Leste, Timor-Lorosa'e">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GENERAL WORKFLOW - The Architecture Based on Information Communications Community Service and User Interaction</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<script type="text/javascript" language="JavaScript" src="newwindow.js"></script>
+</head>
+<body bgcolor="#FFFFFF">
+<center>
+<table width="923" border="0">
+<tr>
+<td valign=top>
+<table width="36" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="m10000.html"><img src="../nav/imzoomout.gif" border="0" title="zoom out" alt="zoom out"></a></td>
+  </tr>
+  <tr>
+    <td><a href="m10000.html"><img src="../nav/imzoombutton100enabled.gif" border="0" title="zoom to 100%" alt="zoom to 100%"></a></td>
+  </tr>
+  <tr>
+    <td><img src="../nav/imzoombutton200disabled.gif" border="0" title="actual zoom level" alt="actual zoom level"></td>
+  </tr>
+  <tr>
+    <td><img src="../nav/imzoomin.gif" border="0" title="zoom in" alt="zoom in"></a></td>
+  </tr>
+  <tr><td>&nbsp;</td></tr>
+  <tr>
+    <td><a href="javascript:PopUpNewWindow('../leg/legend.html')"><img src="../nav/imlegend.gif" border="0" title="show legend" alt="show legend"></a></td>
+  </tr>
+</table>
+</td>
+<td valign=top>
+<table width="887" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="18"><img src="../nav/imnwlow.gif" width="18" height="18" border="0" alt="NW"></td>
+    <td width="851" background="../nav/immapbordern.gif"> <div align="center"><img src="../nav/imnlow.gif" width="18" height="18" border="0" alt="N"></div></td>
+    <td width="18"><img src="../nav/imnelow.gif" width="18" height="18" border="0" alt="NE"></td>
+  </tr>
+  <tr>
+    <td width="18" background="../nav/immapborderw.gif"><a href="m20200.html"><img src="../nav/imw.gif" width="18" height="18" border="0" alt="W"></a></td>
+    <td width="851"><img src="20201.jpg" ismap usemap="#imageMapm20201" width="851" height="586" border="0"></td>
+    <td width="18" background="../nav/immapbordere.gif"><a href="m20202.html"><img src="../nav/ime.gif" width="18" height="18" border="0" alt="E"></a></td>
+  </tr>
+  <tr>
+    <td width="18"><a href="m20100.html"><img src="../nav/imsw.gif" width="18" height="18" border="0" alt="SW"></a></td>
+    <td width="851" background="../nav/immapborders.gif"> <div align="center"><a href="m20101.html"><img src="../nav/ims.gif" width="18" height="18" border="0" alt="S"></a></div></td>
+    <td width="18"><a href="m20102.html"><img src="../nav/imse.gif" width="18" height="18" border="0" alt="SE"></a></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td></td>
+<td align="center">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-2">
+
+                                                                                                                                            <br> <a     href="http://www.alta4.com" target=_blank></a>.
+</font>
+</td>
+</tr>
+</table>
+
+
+  
+<div align="center">
+    <b>METADATA 
+    
+    
+ 
+  
+  
+  <table border=1 cellspacing=3 cellpadding= style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  background:#B2B2B2;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p align=center style='text-align:center'><b>Category<o:p></o:p></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;background:#B2B2B2;
+  padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p align=center style='text-align:center'><b>Description<o:p></o:p></b></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Coverages<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>This data 
+          element includes information on the spatial extent of the coverage (.e.g., 
+          national, district).<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Comments<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>This field 
+          includes any relevant narrative information related to the coverage<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Resolution<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The pixel 
+          size of the satellite imagery used for mapping.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Minimum 
+          mapping unit<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The minimum 
+          size area of land cover (e.g., 1 hectare) that appears on the maps.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Map 
+          date<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The date the 
+          source data was collected.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Image 
+          date<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The date the 
+          source data was collected<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Image 
+          type<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The type of 
+          image used to create the coverage.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Map 
+          scale<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>Scale of the 
+          map or coverages developed<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Photo 
+          scale<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>Scale of the 
+          airphotos used to create the coverage.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Coordinate 
+          system<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The specific 
+          system used to reference the coverage to a geographic location.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Projection<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The specific 
+          projection used to display the data coverage.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Classification 
+          system<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The classification 
+          system used in preparing land use/land cover maps or marine classes.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>GIS<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The GIS system 
+          the data coverage is provided.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Data 
+          Type<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The data encoding 
+          format of the coverage<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Next 
+          scheduled update<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The date for 
+          the next planned update of the data coverage (Full Tetum Language with AudioVisual File Support Planned)<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Availability<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>This Data 
+          Field contains Relevant Information on the Type of Media, Cost, and 
+          Where Available for the Data (CAMSTL Server Drive No 021 | Under Directory 021 | District Profile | Land Use Class<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+     
+
+
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Contact 
+          Name <o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#BCBAB9;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt'>T
+            <o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Communication
+              <o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#BCBAB9;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt'>CAMSTL - SERVER LOCALHOST IN DILI
+            <o:p></o:p></span></p>      </td>
+    </tr>
+  </table>
+  
+
+
+<iframe src="https://docs.google.com/presentation/d/1s1ZpaE1xxrIZLX-NW-oEsThXtFx0WI2Roa3OGMsfnfw/embed?start=true&loop=true&delayms=3000" frameborder="2" width="841" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+
+
+
+
+</center>
+</body>
+</html>
+
+
+
+<map name="imageMapm20201">
+  <area shape="poly" coords="388,267,394,266,397,268,396,273,397,276,401,278,400,281,400,284,397,282,393,288,391,292,384,299,381,311,379,320,375,325,376,331,381,335,379,337,377,340,376,343,374,345,371,347,368,346,365,346,362,345,360,343,359,340,356,342,353,342,350,342,347,341,345,339,343,337,340,335,338,332,336,330,335,327,336,324,338,322,341,320,343,318,345,315,345,312,346,309,348,307,351,306,354,306,357,306,358,303,360,301,362,298,363,295,366,293,368,291,370,289,372,287,374,284,377,286,381,284,381,275,384,273,387,273,384,279,387,277,389,280,387,287,385,292,389,292,390,289,392,284,392,279,391,275,391,269" href="../att/forested land_dbf1.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="718,415,721,415,724,415,727,414,730,413,731,410,731,413,729,415,727,418,724,416,720,416" href="../att/forested land_dbf45.html" target="AttributesFrame" title="Coastal Forests - Mangrove" alt="Coastal Forests - Mangrove">
+  <area shape="poly" coords="718,415,721,416,725,416,727,419,731,419,735,423,729,426,731,428,728,428,725,429,722,429,725,432,729,433,730,436,728,438,728,441,730,449,727,446,725,449,723,447,720,445,718,442,720,446,722,449,721,452,722,459,724,465,724,471,727,473,728,477,725,480,722,475,718,477,715,478,712,479,709,479,706,479,703,479,700,476,699,472,696,470,696,467,700,463,697,461,693,462,688,462,687,459,686,456,686,452,682,450,678,453,675,454,671,456,668,457,667,453,669,449,672,448,670,446,667,444,669,442,671,445,675,445,678,443,679,440,681,438,685,438,690,440,691,444,695,444,700,444,700,441,696,439,695,435,696,431,698,429,699,432,702,431,702,428,704,426,706,424,709,421,711,419,714,417,717,416,725,446,726,442,724,440,722,438,724,435,721,434,717,434,717,431,715,428,714,431,716,434,719,438,721,440,724,442,725,446,725,446,717,416,717,416" href="../att/forested land_dbf54.html" target="AttributesFrame" title="Dry Lowland Forest - Single Specie" alt="Dry Lowland Forest - Single Specie">
+  <area shape="poly" coords="684,437,686,434,688,432,691,431,694,430,695,435,696,439,700,441,700,444,697,445,694,444,691,442,687,439,684,437" href="../att/forested land_dbf80.html" target="AttributesFrame" title="Coastal Forests - Mangrove" alt="Coastal Forests - Mangrove">
+  <area shape="poly" coords="639,438,642,438,645,436,648,436,651,437,654,438,657,439,660,438,663,437,666,435,669,436,672,436,668,437,665,437,661,439,659,442,656,440,653,441,651,445,648,442,647,445,644,444,644,441,639,442,639,438" href="../att/forested land_dbf85.html" target="AttributesFrame" title="Coastal Forests - Mangrove" alt="Coastal Forests - Mangrove">
+  <area shape="poly" coords="543,440,543,443,543,447,540,448,535,450,532,451,525,449,521,448,518,448,515,449,511,446,511,443,513,440,518,440,522,440,526,440,530,441,535,441,540,440" href="../att/forested land_dbf94.html" target="AttributesFrame" title="Moist Highland Forest - Single Spe" alt="Moist Highland Forest - Single Spe">
+  <area shape="poly" coords="439,449,442,448,446,447,448,449,451,448,449,450,446,449,443,450,440,451,438,449" href="../att/forested land_dbf109.html" target="AttributesFrame" title="Coastal Forests - Mangrove" alt="Coastal Forests - Mangrove">
+  <area shape="poly" coords="415,450,417,452,420,454,422,457,420,460,416,459,413,459,412,456,409,455,412,454,414,451" href="../att/forested land_dbf117.html" target="AttributesFrame" title="Coastal Forests" alt="Coastal Forests">
+  <area shape="poly" coords="425,455,424,455,425,454,426,454,427,453,428,454,429,453,430,452,431,452,432,452,433,451,433,453,433,454,431,454,431,453,429,454,427,454,426,454,426,455" href="../att/forested land_dbf121.html" target="AttributesFrame" title="Coastal Forests - Mangrove" alt="Coastal Forests - Mangrove">
+  <area shape="poly" coords="665,451,664,455,666,458,666,461,669,458,673,456,678,453,682,450,685,450,686,456,687,459,688,462,693,462,697,461,700,463,696,467,696,470,699,472,700,475,702,479,705,480,707,478,710,479,714,479,717,478,721,475,723,479,728,478,731,477,740,484,743,489,744,493,745,497,742,499,739,498,735,496,732,495,730,497,734,499,737,502,736,505,739,507,741,503,744,505,743,509,741,513,737,515,734,516,731,515,731,511,730,508,728,504,725,503,726,506,727,510,725,511,725,514,722,511,721,515,718,514,717,518,716,521,712,523,708,521,707,519,705,522,702,525,697,525,693,523,691,520,689,518,685,519,683,516,680,517,676,518,673,518,675,515,672,516,673,512,676,513,677,516,679,513,683,514,683,511,685,508,683,504,680,505,677,502,674,501,672,499,669,497,664,495,661,495,658,496,655,493,652,490,654,487,658,482,659,477,655,479,650,481,647,481,649,478,648,475,649,471,649,467,648,461,649,457,650,462,652,463,653,467,657,468,659,471,660,467,662,466,664,470,665,466,665,461,661,462,658,465,658,460,662,458,663,453,730,489,733,488,736,486,732,487,730,489,730,489,663,453,718,502,719,498,723,498,719,497,718,493,715,490,713,488,712,484,712,488,713,490,710,489,708,487,704,487,702,490,700,493,703,494,704,490,707,491,709,494,711,496,711,493,714,495,715,499,717,501,718,502,663,453,663,453" href="../att/forested land_dbf124.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="385,465,389,463,391,460,392,457,392,454,395,455,400,456,402,458,402,455,406,459,409,461,406,462,402,461,398,461,395,461,395,464,393,467,390,467,386,466" href="../att/forested land_dbf125.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="608,469,613,465,616,464,620,465,625,463,627,461,630,463,628,468,630,471,634,471,638,471,640,468,642,465,642,469,643,474,643,479,643,482,640,481,636,481,633,482,627,484,626,487,622,486,621,483,618,479,614,479,611,479,608,478,612,478,615,476,612,474,609,471" href="../att/forested land_dbf152.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="209,487,212,487,215,487,219,486,222,487,225,487,228,487,231,487,234,486,229,488,223,488,222,492,217,492,217,495,214,493,214,497,212,494,202,495,195,494,185,494,181,495,184,494,187,492,189,491,192,490,196,490,199,490,202,490,206,489,209,487,218,489,218,489,209,487,209,487" href="../att/forested land_dbf231.html" target="AttributesFrame" title="Dry Lowland Forest - Single Specie" alt="Dry Lowland Forest - Single Specie">
+  <area shape="poly" coords="181,496,180,495,181,496" href="../att/forested land_dbf251.html" target="AttributesFrame" title="Coastal Forests" alt="Coastal Forests">
+  <area shape="poly" coords="833,511,835,513,838,513,841,515,844,515,848,516,851,519,851,525,850,521,847,520,845,522,843,525,844,528,839,528,837,525,835,522,833,517,833,512" href="../att/forested land_dbf289.html" target="AttributesFrame" title="Moist Highland Forest - Mixed Spec" alt="Moist Highland Forest - Mixed Spec">
+  <area shape="poly" coords="851,531,845,530,846,527,849,526,851,531" href="../att/forested land_dbf289.html" target="AttributesFrame" title="Moist Highland Forest - Mixed Spec" alt="Moist Highland Forest - Mixed Spec">
+  <area shape="poly" coords="166,548,169,545,171,542,168,542,166,539,171,535,178,534,186,529,194,526,202,526,205,525,208,523,211,523,215,524,219,525,224,525,226,527,229,527,235,527,239,527,238,533,239,537,235,540,235,544,234,547,233,553,236,555,239,559,239,563,236,564,233,566,231,569,234,571,236,572,236,576,233,577,225,576,222,577,220,575,213,569,209,565,200,561,194,565,187,557,183,555,181,551,177,551,174,550,170,550,167,548" href="../att/forested land_dbf307.html" target="AttributesFrame" title="Dry Lowland Forest - Single Specie" alt="Dry Lowland Forest - Single Specie">
+  <area shape="poly" coords="543,542,536,547,535,549,533,553,532,556,530,553,527,550,525,552,524,555,527,555,530,555,529,559,533,561,533,567,534,571,534,574,531,577,528,578,517,571,510,570,508,572,511,578,517,579,520,581,521,585,441,586,443,583,448,584,451,580,457,577,460,573,464,571,467,574,470,578,474,575,475,572,476,567,474,565,474,559,479,558,483,558,486,559,491,553,493,550,497,550,498,543,497,539,498,533,500,531,503,527,505,525,509,526,513,527,518,528,520,530,523,535,527,536,529,532,532,530,535,529,539,530,542,532,543,536,543,539" href="../att/forested land_dbf319.html" target="AttributesFrame" title="Moist Highland Forest - Mixed Spec" alt="Moist Highland Forest - Mixed Spec">
+  <area shape="poly" coords="147,540,148,537,153,537,157,535,160,536,159,539,157,542,153,541,148,539" href="../att/forested land_dbf325.html" target="AttributesFrame" title="Dry Lowland Forest - Single Specie" alt="Dry Lowland Forest - Single Specie">
+  <area shape="poly" coords="730,543,728,546,727,549,723,548,720,549,717,551,714,551,714,547,716,544,719,542,722,541,725,539,728,540,730,543" href="../att/forested land_dbf335.html" target="AttributesFrame" title="Moist Highland Forest - Mixed Spec" alt="Moist Highland Forest - Mixed Spec">
+  <area shape="poly" coords="589,547,589,550,582,555,579,560,577,565,576,569,570,576,570,584,563,586,556,579,554,568,550,564,545,561,541,562,539,559,537,557,540,557,543,556,553,555,558,552,563,548,566,547,573,552,576,550,578,547,580,545,586,545,589,547" href="../att/forested land_dbf337.html" target="AttributesFrame" title="Moist Highland Forest - Mixed Spec" alt="Moist Highland Forest - Mixed Spec">
+  <area shape="poly" coords="144,553,144,550,147,549,150,549,153,548,157,548,160,549,163,551,169,555,173,554,177,554,180,553,183,555,187,557,194,565,197,567,202,578,199,586,165,586,163,583,163,580,167,578,170,581,170,585,173,585,175,581,173,579,171,576,169,572,169,568,173,567,175,564,177,561,172,562,169,564,166,562,163,561,161,564,159,567,156,567,152,567,150,564,149,561,152,558,155,556,152,553,148,552,144,553" href="../att/forested land_dbf338.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="730,545,728,548,726,550,722,550,723,548,727,549,728,546" href="../att/forested land_dbf341.html" target="AttributesFrame" title="Moist Lowland Forest - Sparse" alt="Moist Lowland Forest - Sparse">
+  <area shape="poly" coords="696,551,700,551,702,554,706,557,710,557,713,559,717,562,718,566,717,569,722,569,724,573,727,578,731,579,733,581,736,583,736,579,734,576,731,574,734,574,737,572,740,571,742,573,744,571,748,571,751,572,755,574,758,576,762,578,765,580,769,581,773,582,778,583,780,580,782,583,780,586,760,586,759,583,756,582,755,586,750,586,748,584,744,584,702,586,703,583,703,578,707,575,704,573,701,573,699,568,699,565,702,561,702,557,699,553,696,552" href="../att/forested land_dbf346.html" target="AttributesFrame" title="Moist Lowland Forest - Sparse" alt="Moist Lowland Forest - Sparse">
+  <area shape="poly" coords="751,564,751,567,753,569,757,570,761,570,764,571,767,569,770,567,774,565,775,562,778,562,782,562,780,559,783,558,788,554,791,551,794,553,798,556,801,558,804,559,807,561,807,564,806,567,809,567,812,571,813,575,809,577,806,577,803,579,804,583,804,586,801,586,780,586,782,583,780,580,778,583,775,580,771,582,768,581,764,579,760,577,757,575,753,573,749,571,749,568,747,565,747,562,751,563,783,574,787,573,791,573,796,573,799,569,797,567,792,564,788,563,784,567,781,571,783,574,783,574,751,563,751,563" href="../att/forested land_dbf347.html" target="AttributesFrame" title="Moist Lowland Forest - Dense" alt="Moist Lowland Forest - Dense">
+  <area shape="poly" coords="752,562,750,559,748,556,754,558,753,562" href="../att/forested land_dbf349.html" target="AttributesFrame" title="Moist Lowland Forest - Dense" alt="Moist Lowland Forest - Dense">
+  <area shape="poly" coords="219,574,222,577,225,576,233,577,236,576,236,572,234,571,231,570,232,567,235,565,238,564,238,561,244,564,249,565,250,568,254,571,258,574,255,576,251,574,247,573,245,578,248,584,206,586,207,576,210,574,218,574" href="../att/forested land_dbf351.html" target="AttributesFrame" title="Moist Lowland Forest - Sparse" alt="Moist Lowland Forest - Sparse">
+  <area shape="poly" coords="783,574,781,571,784,567,786,563,791,563,795,565,798,567,798,571,791,573,787,573,783,574" href="../att/forested land_dbf357.html" target="AttributesFrame" title="Moist Highland Forest - Mixed Spec" alt="Moist Highland Forest - Mixed Spec">
+  <area shape="poly" coords="839,567,842,565,846,565,849,566,851,578,848,578,845,579,842,580,838,580,834,579,833,576,835,573,837,569" href="../att/forested land_dbf361.html" target="AttributesFrame" title="Moist Lowland Forest - Dense" alt="Moist Lowland Forest - Dense">
+  <area shape="poly" coords="386,581,391,578,397,580,403,580,409,582,412,580,415,576,418,575,422,574,427,574,430,578,430,582,424,584,399,586,397,583,393,582,390,581,386,581" href="../att/forested land_dbf364.html" target="AttributesFrame" title="Moist Lowland Forest - Sparse" alt="Moist Lowland Forest - Sparse">
+  <area shape="poly" coords="146,576,150,577,154,579,156,582,158,586,155,584,151,585,148,585,138,586,141,584,143,582,145,579,146,577" href="../att/forested land_dbf365.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="259,486,262,483,265,482,270,479,273,478,277,478,281,477,283,480,287,479,287,476,290,475,293,476,297,477,304,477,306,480,306,483,305,487,307,490,309,493,314,494,315,496,317,490,318,487,320,484,322,488,322,492,325,495,329,493,329,482,333,484,334,487,334,491,330,495,327,498,320,497,317,499,314,498,310,497,306,496,301,493,297,491,295,494,293,497,296,498,297,502,300,505,301,507,306,506,309,506,309,509,306,512,307,516,310,519,308,523,305,525,305,529,306,536,302,539,297,540,300,542,302,544,306,544,309,543,312,540,316,537,313,537,316,535,320,536,326,536,329,538,334,540,337,542,340,545,336,548,332,551,330,553,327,555,324,558,322,561,319,558,318,555,313,546,312,551,308,550,305,553,302,553,302,550,301,545,299,544,293,543,290,546,287,543,287,539,284,540,280,540,274,535,274,541,271,540,269,537,267,541,269,547,263,546,262,541,260,535,256,534,253,537,252,540,243,540,240,536,238,533,240,530,235,527,229,527,226,527,224,525,220,525,215,524,211,523,208,523,205,525,202,526,194,526,186,529,178,534,171,535,168,538,164,538,167,541,171,540,170,544,168,546,166,548,163,546,160,544,157,543,158,540,160,536,157,535,153,537,148,535,148,532,148,529,147,526,149,524,151,521,151,518,153,515,154,512,156,509,157,506,158,503,161,503,164,502,167,501,170,500,173,498,176,497,178,496,185,494,195,494,202,495,210,494,212,497,213,493,216,495,219,492,221,494,223,488,229,488,235,488,239,488,243,488,247,488,249,493,253,491,256,487,259,486,175,526,177,522,179,520,180,524,184,523,186,522,188,524,190,522,193,521,189,518,189,515,192,517,194,519,198,523,197,519,195,516,199,519,200,522,203,520,200,517,203,516,200,513,202,510,204,513,208,513,211,513,211,509,211,506,208,504,204,506,201,507,199,510,195,512,192,510,189,508,186,507,183,510,182,513,180,515,176,513,173,514,171,511,169,514,166,516,163,518,169,519,173,519,174,523,175,526,259,486,284,536,287,536,291,535,294,536,298,535,300,533,297,529,299,524,300,521,297,521,294,523,293,518,292,514,291,510,289,513,289,516,286,519,281,517,284,513,282,511,281,507,285,508,286,505,289,502,292,500,289,498,287,501,287,495,284,501,283,497,280,496,279,490,274,489,274,492,275,495,278,498,276,501,274,498,270,494,266,495,267,498,263,498,263,502,260,501,258,498,257,504,257,507,254,506,250,504,251,509,249,506,244,503,242,507,244,515,244,520,247,522,252,521,256,522,253,525,256,526,260,527,263,528,266,531,268,528,272,529,274,531,278,532,279,536,284,536,284,536,259,486,237,522,238,519,236,515,238,512,239,509,240,506,237,503,238,508,235,506,231,503,227,505,226,502,224,503,221,505,217,505,213,505,216,507,218,510,219,513,222,510,224,509,225,512,228,515,227,511,229,512,232,510,236,510,236,513,234,516,234,519,236,522,237,522,259,486,259,486" href="../att/forested land_dbf484.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="851,463,850,463,851,462,851,463" href="../att/forested land_dbf551.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="851,458,849,461,846,459,845,455,847,450,850,447,851,442,851,458" href="../att/forested land_dbf551.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="851,442,850,438,848,435,847,431,844,428,847,426,849,429,851,442" href="../att/forested land_dbf551.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="851,491,847,494,845,498,843,496,840,498,836,502,833,504,833,508,826,507,823,506,819,504,815,504,809,507,804,508,799,509,795,504,794,500,791,498,788,496,787,494,788,490,787,485,785,481,788,481,792,482,793,487,793,490,797,491,800,492,797,490,794,489,794,485,793,482,796,480,799,480,802,478,799,478,795,479,792,480,789,479,786,477,790,477,787,475,788,471,786,469,787,464,789,461,790,458,793,456,794,452,797,453,800,454,800,451,802,448,805,449,807,452,808,455,808,459,808,463,812,465,813,461,816,460,816,456,814,453,817,450,819,446,822,448,823,451,822,454,822,457,825,460,826,463,825,466,828,465,829,468,830,465,829,462,829,459,831,458,834,460,833,463,834,465,833,468,831,471,835,471,836,468,836,465,839,464,842,463,845,466,849,465,851,467,851,473,850,476,851,491,817,472,815,470,812,470,810,468,808,470,811,469,810,472,813,472,817,473,817,472,851,491,826,478,824,480,828,479,826,476,826,478,851,491,813,478,813,478,851,491,818,479,818,479,851,491,810,479,810,479,851,491,838,479,838,476,836,473,837,478,836,481,834,484,836,481,835,478,832,479,831,481,831,485,834,487,835,484,837,486,838,483,838,479,838,479,851,491,813,483,816,480,813,481,813,483,851,491,825,484,822,483,825,484,825,484,851,491,843,485,846,484,845,481,847,477,848,474,849,471,845,471,846,474,843,476,841,479,840,482,839,485,836,488,837,491,840,491,841,487,843,485,851,491,848,486,848,483,849,479,846,480,847,483,848,486,851,491,822,488,825,486,828,486,830,484,827,483,825,485,822,486,822,488,851,491,809,493,806,491,809,493,809,493,851,491,825,495,827,492,825,489,825,492,825,495,851,491,836,494,835,491,833,489,830,490,831,493,834,494,836,494,851,491,824,504,826,502,830,501,831,498,829,494,828,497,826,500,823,498,823,495,819,496,815,493,812,493,815,495,817,497,820,499,823,500,824,503,821,503,818,500,820,503,823,504,824,504,851,491,805,507,805,507,851,491,851,491" href="../att/forested land_dbf551.html" target="AttributesFrame" title="Dry Lowland Forest - Mixed Species" alt="Dry Lowland Forest - Mixed Species">
+  <area shape="poly" coords="497,537,497,543,498,547,495,549,491,553,488,556,483,558,479,558,474,559,473,562,476,567,477,570,474,575,471,577,468,576,464,571,460,573,457,577,451,580,449,583,445,583,442,580,445,577,452,569,455,560,461,555,464,554,469,552,473,550,474,546,474,541,475,538,479,535,484,535,487,534,489,536,495,537" href="../att/forested land_dbf559.html" target="AttributesFrame" title="Dry Lowland Forest - Single Specie" alt="Dry Lowland Forest - Single Specie">
+  <area shape="poly" coords="501,466,498,467,493,468,487,469,478,473,475,475,475,483,479,488,486,491,493,492,499,496,498,502,493,502,485,503,480,502,475,502,468,500,464,503,466,507,467,512,461,514,455,514,450,516,446,514,447,508,452,506,456,503,456,497,450,497,444,498,441,493,442,490,445,485,445,481,447,476,451,474,455,474,458,474,462,472,467,471,461,468,457,469,453,468,450,467,445,467,441,467,434,472,430,472,426,473,421,476,418,475,416,480,413,478,410,479,409,483,407,485,406,490,403,491,400,491,397,489,393,489,389,488,386,487,385,483,382,486,378,486,374,484,371,485,370,480,368,478,368,481,366,484,367,488,363,487,361,485,359,489,356,491,360,495,365,496,368,498,371,501,372,503,369,504,365,502,364,505,361,507,357,503,351,503,346,507,349,512,350,514,347,520,345,523,343,526,341,519,341,516,344,512,339,509,334,507,331,507,333,511,328,510,326,505,330,505,333,503,336,502,335,498,338,496,340,494,343,490,338,492,337,489,340,481,341,477,344,477,347,479,348,482,350,478,354,479,356,482,358,479,359,475,361,480,363,476,366,477,368,473,371,473,374,476,374,480,373,484,375,480,377,476,379,473,382,472,386,473,389,473,391,476,392,473,396,470,401,472,404,473,409,472,413,472,416,469,419,469,425,467,429,464,435,464,439,461,442,461,446,461,450,456,456,458,460,458,462,456,467,456,468,452,472,453,475,456,479,458,481,455,482,452,485,450,488,447,492,446,497,445,500,439,503,435,507,434,512,436,516,435,520,432,523,432,526,433,530,432,534,432,537,435,542,435,544,438,540,440,537,441,530,441,526,440,522,440,518,440,513,440,511,443,511,446,514,449,517,448,521,448,524,449,530,451,534,451,540,448,543,447,547,447,548,444,547,441,550,436,553,435,557,435,559,437,557,440,558,443,558,446,557,450,552,452,550,454,535,460,527,465,523,464,520,461,517,459,513,461,510,463,507,466,503,467" href="../att/forested land_dbf560.html" target="AttributesFrame" title="Dry Lowland Forest - Single Specie" alt="Dry Lowland Forest - Single Specie">
+  <area shape="poly" coords="516,477,519,474,524,473,528,474,534,473,538,469,541,467,546,466,550,465,553,462,556,463,559,461,560,467,559,470,558,474,558,480,561,483,562,488,561,494,563,499,566,496,571,490,574,485,577,484,580,481,583,479,584,475,588,475,591,476,590,479,593,481,597,480,599,477,600,473,605,471,608,469,612,474,615,476,612,478,609,477,611,479,614,479,618,479,621,483,622,486,625,488,627,484,633,482,635,480,639,480,642,482,646,482,650,481,655,479,658,475,658,482,656,486,652,490,655,493,658,496,661,495,664,495,668,496,672,499,674,501,677,502,679,504,683,504,685,508,683,511,683,514,680,511,679,516,676,513,673,512,671,515,668,516,665,517,663,515,664,510,663,508,661,503,657,501,655,504,653,507,649,508,646,510,642,512,638,512,632,513,635,517,632,520,633,526,627,527,621,522,615,517,608,517,605,519,602,521,600,519,604,516,605,513,604,509,599,508,600,512,597,513,596,517,593,517,592,521,590,524,588,526,585,524,582,522,583,519,586,517,585,514,586,511,584,508,581,507,579,509,575,510,571,507,569,511,570,514,573,513,576,515,580,516,579,521,578,524,574,524,570,523,568,526,570,528,573,530,576,533,572,533,569,533,566,532,562,536,555,539,549,541,545,542,543,540,543,536,542,532,539,530,536,529,532,530,529,532,527,536,523,535,520,533,519,528,515,527,509,529,511,522,512,519,511,514,513,511,516,510,521,510,524,509,528,508,531,504,530,501,527,497,529,492,533,485,532,482,526,481,520,480,516,477,539,500,542,498,542,494,545,496,543,493,546,491,549,489,552,491,552,488,554,485,553,482,554,479,554,475,551,479,547,480,548,484,548,488,545,487,542,489,539,488,536,488,538,491,540,493,538,495,538,499,539,500,516,477,516,477" href="../att/forested land_dbf561.html" target="AttributesFrame" title="Dry Lowland Forest - Single Specie" alt="Dry Lowland Forest - Single Specie">
+  <area shape="poly" coords="851,566,847,566,843,565,839,566,835,566,833,564,834,561,831,562,831,566,832,569,833,572,833,576,829,578,826,580,823,578,823,582,819,581,815,581,812,580,810,582,808,580,808,584,804,586,804,583,802,579,806,578,809,577,812,579,813,575,812,571,809,569,806,569,807,565,807,562,804,559,801,558,798,557,795,555,792,553,790,552,791,548,795,552,800,555,804,554,802,551,800,547,799,543,796,543,792,543,792,540,795,540,798,540,795,537,798,537,800,532,803,531,804,527,801,525,798,524,793,527,791,525,787,527,784,525,783,522,781,519,779,515,776,513,773,515,776,509,776,506,774,505,774,501,778,501,781,500,778,498,774,498,772,501,770,505,771,508,769,510,766,510,763,512,761,514,764,516,765,520,763,524,764,528,768,529,767,525,768,522,770,524,773,527,771,523,774,521,776,518,778,520,781,523,782,525,782,531,783,534,785,539,786,542,785,545,783,548,779,548,776,549,771,550,767,550,762,551,761,548,757,545,754,544,752,540,749,539,749,534,747,531,749,527,749,524,748,521,750,518,754,515,756,513,755,509,755,506,758,503,759,500,756,499,752,497,753,494,756,492,760,490,762,487,766,488,764,491,767,491,767,488,769,485,769,482,765,480,764,483,761,483,762,479,764,476,763,474,760,471,764,471,768,471,767,468,770,466,772,463,775,462,779,461,782,463,783,465,782,469,781,471,780,475,776,475,779,477,780,480,780,484,783,485,786,487,784,489,784,492,786,496,788,499,791,498,794,500,795,504,797,508,801,512,807,511,809,514,807,517,809,520,811,522,815,523,820,523,822,521,823,518,822,515,825,513,825,507,830,508,833,511,833,517,834,520,837,525,839,528,843,530,849,531,851,566,824,516,826,514,824,516,824,516,851,566,825,517,825,517,851,566,829,524,829,520,829,524,829,524,851,566,754,525,757,522,756,519,759,519,756,519,753,521,752,524,754,525,851,566,834,535,837,534,836,531,838,528,836,527,833,529,833,532,833,535,834,535,851,566,831,575,829,571,828,568,826,565,825,561,823,555,823,551,821,553,816,555,814,553,813,549,811,546,808,545,804,543,805,547,808,547,809,551,808,553,810,556,812,559,815,561,820,562,824,562,825,566,826,570,828,573,830,574,831,575,851,566,851,566" href="../att/forested land_dbf566.html" target="AttributesFrame" title="Moist Lowland Forest - Sparse" alt="Moist Lowland Forest - Sparse">
+  <area shape="poly" coords="800,586,800,585,801,586,800,586" href="../att/forested land_dbf566.html" target="AttributesFrame" title="Moist Lowland Forest - Sparse" alt="Moist Lowland Forest - Sparse">
+  <area shape="poly" coords="521,586,520,581,517,579,511,578,507,575,510,570,517,571,528,578,530,581,532,584,535,582,536,579,537,575,537,572,536,568,538,565,541,563,544,562,550,564,554,568,556,579,563,586,521,586" href="../att/forested land_dbf590.html" target="AttributesFrame" title="Moist Lowland Forest - Dense" alt="Moist Lowland Forest - Dense">
+  <area shape="poly" coords="568,586,570,576,576,569,577,565,579,560,582,555,588,550,589,547,587,545,583,544,579,547,576,549,573,552,569,547,565,547,558,552,553,555,543,556,540,557,537,557,536,554,535,551,536,547,541,543,545,542,549,541,555,539,562,536,564,532,569,533,572,533,576,533,579,531,579,528,580,525,583,526,585,529,588,529,590,526,594,524,597,524,599,522,603,521,605,518,615,517,621,522,627,526,634,528,640,531,644,529,647,531,649,526,651,523,655,523,655,520,658,522,661,522,664,519,665,516,668,515,668,518,672,518,676,518,679,519,681,520,685,519,689,518,691,520,693,523,697,525,700,525,703,524,708,525,709,528,708,531,705,533,708,534,712,537,714,534,716,537,713,538,716,539,722,538,724,534,727,534,729,537,732,539,735,541,737,539,739,541,740,544,739,547,736,550,732,552,729,555,727,553,724,552,723,555,726,557,723,559,720,557,719,554,715,553,715,557,711,557,712,553,707,551,704,549,702,547,701,544,700,540,697,538,694,538,690,537,691,540,689,544,689,547,694,549,696,551,699,553,702,557,702,561,699,564,695,563,691,564,689,566,687,568,688,571,686,574,688,576,690,581,691,584,665,586,661,584,568,586,686,524,683,522,680,522,677,522,674,522,673,526,674,529,673,532,676,531,677,527,678,525,681,525,685,524,686,524,568,586,730,544,729,541,726,539,723,540,720,541,717,543,714,546,713,549,715,551,719,550,724,550,728,548,730,545,730,544,568,586,568,586" href="../att/forested land_dbf590.html" target="AttributesFrame" title="Moist Lowland Forest - Dense" alt="Moist Lowland Forest - Dense">
+  <area shape="poly" coords="390,265,393,264,396,262,398,264,399,267,400,270,400,273,400,276,397,276,396,273,397,268,394,266,390,265" href="../att/agricultural land_dbf0.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="375,283,376,280,378,278,381,276,381,284,378,286,376,284" href="../att/agricultural land_dbf3.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="400,284,398,287,397,290,397,293,394,295,392,298,391,300,388,302,387,305,386,308,385,311,385,314,385,317,384,320,385,323,384,326,384,329,382,332,381,334,376,331,375,325,379,320,381,311,384,299,391,292,393,288,394,282,400,284" href="../att/agricultural land_dbf4.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="735,423,739,422,743,423,747,418,750,414,748,412,749,409,752,413,750,418,749,421,751,424,749,427,747,430,742,432,738,433,735,431,731,429,729,426,732,424" href="../att/agricultural land_dbf44.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="780,431,784,429,785,426,785,422,788,423,790,427,790,430,790,436,791,440,788,439,784,438,787,439,789,441,785,440,783,444,785,451,784,455,783,458,781,460,777,461,774,462,772,464,767,467,763,468,761,471,763,474,765,474,762,475,764,477,762,481,759,482,763,483,765,480,768,481,768,484,766,487,764,485,761,485,758,488,757,484,754,485,757,487,754,487,750,488,751,492,750,495,749,499,752,500,755,499,759,498,758,503,755,506,753,508,751,510,748,510,745,507,743,504,740,505,736,505,737,502,734,499,731,498,732,495,735,496,738,498,742,499,745,500,747,497,748,492,746,488,748,485,748,481,750,484,751,481,750,478,753,477,757,477,758,474,755,473,751,472,749,475,746,475,745,472,747,469,750,467,747,470,748,473,752,471,755,472,758,471,755,470,757,466,757,463,756,460,759,460,761,457,764,455,766,453,764,456,763,458,762,462,764,465,763,462,764,458,768,457,771,454,773,451,775,448,776,444,778,442,776,444,775,447,773,450,773,447,775,444,777,437,780,431" href="../att/agricultural land_dbf61.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="700,429,701,428,702,429,704,431,702,431,701,432,700,432,700,430,700,429" href="../att/agricultural land_dbf73.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="731,428,734,430,738,433,742,434,743,437,746,441,745,444,743,442,741,438,738,440,735,440,732,437,730,435,728,432,723,431,726,429,729,428" href="../att/agricultural land_dbf74.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="725,446,724,442,721,440,719,438,717,435,715,433,715,430,717,432,718,435,722,434,722,437,724,440,726,442,725,446" href="../att/agricultural land_dbf77.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="674,438,678,438,678,443,675,445,671,445,669,442,667,444,670,446,673,447,670,448,668,451,667,454,668,457,669,460,667,462,666,458,664,455,665,451,667,449,664,448,662,445,659,444,658,447,655,445,652,446,652,442,655,440,658,442,661,439,665,437,668,437,670,439,674,438" href="../att/agricultural land_dbf86.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="569,440,570,443,571,446,571,450,575,452,580,452,583,450,586,450,585,454,581,455,575,455,571,457,572,460,570,463,568,466,565,464,562,463,560,461,556,463,553,462,550,465,546,466,541,467,538,469,535,471,530,474,527,472,522,474,516,477,506,477,503,476,499,476,496,474,501,474,504,473,508,473,518,471,521,469,526,466,535,460,548,456,552,452,555,451,559,448,562,448,566,450,569,448,565,448,565,445,566,442,568,440" href="../att/agricultural land_dbf93.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="647,447,647,444,647,440,650,443,650,448,653,449,653,454,651,458,650,463,651,460,649,457,647,454,646,449" href="../att/agricultural land_dbf96.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="723,451,722,449,721,448,720,446,719,443,718,442,720,443,720,445,721,445,723,447,724,448,723,449,723,451" href="../att/agricultural land_dbf104.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="726,449,729,449,733,449,731,452,731,455,729,457,729,454,727,456,727,453,728,450" href="../att/agricultural land_dbf113.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="723,451,726,449,727,452,725,455,727,453,727,456,729,454,729,457,727,459,726,462,726,465,726,469,726,472,723,467,722,459,722,453" href="../att/agricultural land_dbf122.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="822,454,825,457,827,459,829,462,830,465,830,468,828,465,826,467,826,464,825,460,822,458,822,455" href="../att/agricultural land_dbf140.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="519,459,522,462,525,465,523,468,520,470,510,473,507,473,501,474,496,474,492,474,491,469,496,468,501,466,507,466,510,463,513,461,516,459,519,459" href="../att/agricultural land_dbf146.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="728,458,727,461,730,462,731,465,734,463,737,463,732,467,732,470,731,474,732,477,729,477,727,474,730,472,729,469,726,467,726,463,727,460" href="../att/agricultural land_dbf149.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="328,469,327,466,331,466,334,468,337,471,339,473,341,476,340,481,337,486,334,487,333,484,329,482,329,492,327,494,323,492,321,489,321,484,318,487,319,490,317,495,314,495,310,492,307,490,304,489,305,485,307,482,304,477,297,477,293,476,290,475,287,476,288,479,285,478,282,478,279,477,276,479,270,479,267,483,263,482,266,479,267,476,269,475,272,474,275,472,278,472,280,470,283,469,287,468,290,468,293,467,296,467,299,468,302,469,305,470,308,470,311,471,314,472,317,473,321,471,321,474,326,476,327,480,326,484,329,486,328,482,329,479,330,475,331,471,328,469" href="../att/agricultural land_dbf156.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="416,491,419,490,418,487,415,484,416,480,416,476,421,476,425,475,430,472,434,472,440,467,445,467,450,467,453,468,457,469,461,468,465,468,462,472,458,474,455,474,451,474,447,476,445,479,445,485,443,489,441,493,442,498,450,497,455,495,457,501,453,505,450,503,447,502,447,505,444,507,441,507,439,504,438,507,435,508,431,505,429,502,422,498,418,497,418,493,416,491" href="../att/agricultural land_dbf165.html" target="AttributesFrame" title="Estate Crops" alt="Estate Crops">
+  <area shape="poly" coords="732,477,732,474,732,470,732,467,734,465,737,466,740,468,741,472,741,475,741,479,740,483,733,478" href="../att/agricultural land_dbf167.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="767,467,767,468,766,469,765,470,764,470,762,471,761,471,762,470,762,469,763,468,764,468,765,467,767,467" href="../att/agricultural land_dbf172.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="817,472,814,473,811,472,808,471,809,468,812,469,815,471,818,471" href="../att/agricultural land_dbf173.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="786,468,788,471,787,474,790,476,786,476,788,478,785,479,783,477,783,473,784,470" href="../att/agricultural land_dbf177.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="843,485,844,482,843,479,844,474,845,471,848,471,847,474,847,477,845,481,846,484,843,485" href="../att/agricultural land_dbf184.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="644,476,648,474,649,477,647,481,644,483,643,479,644,476" href="../att/agricultural land_dbf189.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="837,478,836,476,835,476,835,474,836,473,837,474,836,475,837,476,838,477,839,477,839,479,838,479,837,479,837,478" href="../att/agricultural land_dbf198.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="335,487,337,490,340,491,340,495,336,498,336,501,333,503,330,505,326,505,327,509,330,512,331,507,334,507,338,508,343,510,342,513,341,519,343,526,345,523,347,520,350,517,349,512,346,507,349,503,354,503,359,507,362,505,365,504,369,504,372,503,371,501,368,498,365,496,361,495,357,494,357,491,360,488,361,485,364,488,366,490,366,487,368,484,368,478,371,479,371,483,373,486,378,484,381,486,384,483,386,487,389,488,393,488,396,489,399,491,399,495,401,497,404,497,404,503,400,511,399,514,398,518,396,521,395,526,395,531,391,526,390,522,388,519,388,515,391,512,395,509,395,505,391,504,387,509,382,513,378,514,376,519,372,521,368,519,364,515,361,523,356,527,353,528,349,528,347,525,345,528,344,532,341,535,340,538,338,541,334,540,329,538,326,536,323,536,318,535,313,536,307,538,305,531,305,525,308,523,310,519,307,516,306,512,309,509,309,506,306,506,301,507,300,505,297,502,297,498,293,497,295,494,297,491,301,493,303,494,308,496,311,497,314,498,319,499,324,499,328,497,334,493,335,489" href="../att/agricultural land_dbf200.html" target="AttributesFrame" title="Estate Crops" alt="Estate Crops">
+  <area shape="poly" coords="253,481,256,484,259,486,256,487,255,491,251,495,248,490,245,487,239,488,235,488,238,486,241,486,243,483,245,481,248,480,251,481" href="../att/agricultural land_dbf204.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="826,480,827,479,826,478,826,477,826,476,827,476,828,477,829,477,828,478,827,480" href="../att/agricultural land_dbf205.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="843,477,843,480,843,483,841,486,841,490,838,492,836,489,838,486,840,485,840,480,842,477" href="../att/agricultural land_dbf210.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="835,483,834,486,831,484,830,481,832,479,835,478,836,481,833,482" href="../att/agricultural land_dbf218.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="825,478,826,479,826,480,825,481,824,481,825,480,825,479,825,478" href="../att/agricultural land_dbf219.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="740,484,740,483,740,482,741,480,741,479,742,481,744,484,742,486,741,485" href="../att/agricultural land_dbf222.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="848,486,848,485,847,486,846,485,847,484,847,483,847,481,846,480,847,479,848,479,849,480,849,481,850,482,850,483,849,483,848,484,849,485" href="../att/agricultural land_dbf223.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="813,483,813,481,813,480,814,480,815,479,816,480,815,481,814,481,813,483" href="../att/agricultural land_dbf224.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="837,481,837,482,838,482,837,483,837,485,837,486,836,486,836,485,837,484,835,484,836,483,836,482,837,481" href="../att/agricultural land_dbf229.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="822,488,824,486,827,484,830,483,829,486,826,485,823,488" href="../att/agricultural land_dbf235.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="718,502,715,499,714,496,713,493,711,496,708,494,706,491,703,493,701,495,701,491,702,488,705,486,708,487,711,489,711,486,714,489,716,492,718,495,721,497,719,499" href="../att/agricultural land_dbf237.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="766,487,765,490,764,487,760,488,758,491,754,494,752,497,755,499,753,501,750,499,750,495,751,492,750,488,751,486,754,487,754,484,758,485,762,485,765,487" href="../att/agricultural land_dbf238.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="284,536,281,536,278,532,274,531,272,529,268,528,266,531,264,527,260,529,256,526,253,525,257,524,255,520,249,523,244,520,244,515,243,510,244,506,246,504,248,508,249,505,253,506,257,507,257,504,257,501,256,498,260,503,263,504,263,500,266,501,265,497,267,494,272,496,275,500,278,498,275,495,274,492,272,489,277,489,280,494,280,497,282,501,285,496,287,500,289,497,292,500,289,502,286,504,285,507,281,507,282,511,284,513,281,516,284,518,287,518,289,515,290,512,292,514,293,518,293,521,295,523,298,521,299,524,298,528,300,531,298,535,294,536,291,535,287,536,284,536" href="../att/agricultural land_dbf242.html" target="AttributesFrame" title="Estate Crops" alt="Estate Crops">
+  <area shape="poly" coords="730,489,730,488,731,487,733,486,735,486,736,486,735,487,733,488,732,489,730,489" href="../att/agricultural land_dbf243.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="836,494,833,493,830,491,833,488,834,491,836,494" href="../att/agricultural land_dbf247.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="825,495,824,494,823,493,823,492,824,492,825,492,825,491,825,489,825,491,826,491,827,493,827,494,825,495" href="../att/agricultural land_dbf250.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="765,491,765,492,766,493,764,493,764,491" href="../att/agricultural land_dbf252.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="809,493,808,493,807,492,805,492,805,491,807,491,808,491,809,493" href="../att/agricultural land_dbf254.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="824,504,823,501,820,499,817,497,815,495,812,494,815,493,819,496,822,495,823,498,826,500,828,497,829,494,830,497,831,500,828,501,825,503" href="../att/agricultural land_dbf256.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="781,499,782,500,781,501,780,501,779,501,778,500,780,500,781,499" href="../att/agricultural land_dbf263.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="842,499,841,502,838,503,838,506,836,509,838,511,835,513,835,510,833,504,836,502,841,499" href="../att/agricultural land_dbf264.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="175,526,174,519,171,519,164,519,166,516,169,514,171,511,173,514,176,513,179,515,182,513,183,510,186,507,189,508,192,507,192,511,197,512,200,509,202,507,205,505,209,505,213,507,210,511,212,513,208,514,205,514,204,510,201,511,203,516,198,515,203,519,200,521,198,517,195,516,198,520,195,521,193,518,189,515,189,518,193,520,190,522,188,524,186,522,184,523,180,524,179,520,177,522,175,526" href="../att/agricultural land_dbf268.html" target="AttributesFrame" title="Estate Crops" alt="Estate Crops">
+  <area shape="poly" coords="664,518,662,521,659,522,657,519,653,518,655,522,651,523,649,526,649,530,646,531,642,530,637,529,634,527,631,522,634,519,633,516,636,512,641,513,644,510,648,509,651,508,654,506,656,502,661,503,663,508,664,510,663,515,664,518" href="../att/agricultural land_dbf269.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="815,504,819,504,823,506,824,511,822,508,820,511,818,514,821,515,821,519,819,523,815,523,812,524,812,521,809,520,806,519,809,514,807,511,801,512,798,509,802,509,807,508,812,506,816,506,814,513,812,510,812,513,814,513,816,506,818,523,818,519,817,515,815,518,814,521,816,523,818,523,816,506,816,506" href="../att/agricultural land_dbf275.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="814,505,814,504,815,506,816,506,817,505,818,506,817,507,816,507,815,507,817,507,815,506,814,506,814,507,813,506,814,505" href="../att/agricultural land_dbf277.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="742,511,744,507,747,510,750,512,752,510,754,506,755,509,756,512,753,514,750,514,746,514,742,512" href="../att/agricultural land_dbf279.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="769,510,767,510,767,508,768,508,769,510" href="../att/agricultural land_dbf283.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="847,508,848,510,849,511,848,513,848,513,846,513,844,513,844,512,845,512,846,511,847,510,846,508,847,508" href="../att/agricultural land_dbf284.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="766,510,769,512,770,515,768,517,765,516,762,515,763,512,766,510" href="../att/agricultural land_dbf287.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="705,523,706,519,708,521,712,523,716,521,717,519,716,515,719,515,721,511,723,514,722,517,720,520,722,523,721,526,718,523,718,526,714,527,710,527,705,522" href="../att/agricultural land_dbf290.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="742,511,745,514,749,514,752,514,750,518,748,521,746,524,743,525,741,522,737,520,734,521,732,523,735,526,735,530,734,534,735,538,733,539,729,538,728,534,725,534,723,530,724,527,726,524,727,521,731,519,733,517,736,515,740,514,742,511" href="../att/agricultural land_dbf291.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="824,516,824,515,825,514,827,513,826,514,825,515,824,516" href="../att/agricultural land_dbf296.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="770,515,775,514,778,514,780,517,782,520,783,523,785,526,789,526,793,527,796,525,801,525,804,527,803,531,800,532,800,535,795,536,799,539,795,540,792,539,792,543,796,543,799,543,800,546,801,549,804,552,801,554,797,554,794,550,790,549,789,553,783,558,780,559,782,562,778,562,775,562,774,565,771,566,768,569,765,572,762,570,759,570,755,570,752,568,754,565,758,565,761,562,765,560,767,563,770,566,768,563,772,562,775,561,772,559,769,559,766,559,761,560,761,556,762,553,764,550,770,550,774,550,777,549,781,548,785,547,786,543,785,539,783,534,782,531,782,526,781,523,778,520,776,518,774,521,771,522,772,525,769,522,767,525,768,528,764,528,763,524,765,520,766,518,770,517" href="../att/agricultural land_dbf297.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="825,517,826,515,827,516,826,516" href="../att/agricultural land_dbf299.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="818,523,818,522,817,523,816,522,814,521,815,520,814,520,815,519,815,518,815,517,816,516,817,515,817,517,816,517,816,518,818,519,818,520,818,522,818,523" href="../att/agricultural land_dbf300.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="735,524,731,525,733,523,735,520,739,521,739,524,736,526" href="../att/agricultural land_dbf305.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="829,524,829,523,828,522,828,520,829,521,830,522,830,523" href="../att/agricultural land_dbf312.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="673,524,676,522,680,522,683,522,686,524,683,525,679,524,676,526,678,530,675,532,674,529,673,526" href="../att/agricultural land_dbf314.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="834,535,833,532,833,529,836,527,838,528,836,531,838,534,835,533" href="../att/agricultural land_dbf322.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="147,540,152,539,154,543,157,544,161,544,165,547,167,548,170,550,174,550,177,551,180,550,182,552,179,553,175,554,171,554,163,551,160,549,157,548,153,548,150,549,147,549,146,546,147,543" href="../att/agricultural land_dbf330.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="831,575,828,573,826,570,825,566,824,562,820,562,817,562,813,560,811,557,808,555,809,552,810,548,807,547,803,544,808,545,811,546,813,549,814,553,816,555,821,554,822,550,824,554,824,560,825,563,828,566,828,570,830,572" href="../att/agricultural land_dbf339.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="703,548,705,550,710,552,712,555,709,557,704,555,703,552,701,548" href="../att/agricultural land_dbf342.html" target="AttributesFrame" title="Shifting Cultivation Areas" alt="Shifting Cultivation Areas">
+  <area shape="poly" coords="534,550,536,553,537,556,539,559,541,562,539,564,538,567,536,570,537,573,536,577,535,582,532,584,530,581,530,578,533,575,535,573,533,568,533,564,532,560,531,557,532,554,533,550" href="../att/agricultural land_dbf344.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="151,558,149,562,151,565,148,562,149,558,149,555,151,557" href="../att/agricultural land_dbf345.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="366,573,369,572,371,568,373,566,377,567,376,563,380,563,382,566,380,570,379,573,375,574,372,574,370,577,374,578,377,577,380,579,381,582,383,580,384,577,386,579,384,582,383,586,376,586,373,583,370,582,367,581,364,582,362,579,361,576,364,575" href="../att/agricultural land_dbf355.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="839,567,836,570,835,574,833,572,832,569,831,566,831,562,834,560,833,563,835,565,838,566" href="../att/agricultural land_dbf356.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="361,576,361,575,362,574,363,573,364,573,365,573,366,574,365,574,363,575,363,576,362,576" href="../att/agricultural land_dbf363.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="357,578,358,577,359,577,360,577,360,578,358,578" href="../att/agricultural land_dbf366.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="811,576,812,577,812,578,811,577,811,576" href="../att/agricultural land_dbf368.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="386,582,390,582,393,582,396,583,399,583,383,586,384,582" href="../att/agricultural land_dbf369.html" target="AttributesFrame" title="Estate Crops" alt="Estate Crops">
+  <area shape="poly" coords="826,580,825,584,822,585,817,586,814,586,811,585,812,580,815,581,819,581,821,584,823,580,826,580" href="../att/agricultural land_dbf370.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="809,586,809,585,808,584,807,583,807,582,806,580,807,581,808,583,809,583,810,584,810,585,811,586,809,586" href="../att/agricultural land_dbf370.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="831,579,835,580,840,580,844,581,842,583,839,581,836,583,832,581" href="../att/agricultural land_dbf371.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="827,581,830,579,832,581,836,583,839,584,838,581,841,581,841,584,821,586,824,585,826,582" href="../att/agricultural land_dbf372.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="806,580,807,579,807,580,809,581,809,582,811,583,811,584,812,585,813,586,814,586,811,586,810,585,810,584,809,583,808,583,807,581,807,580" href="../att/agricultural land_dbf373.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="144,553,148,552,152,553,155,554,153,557,151,555,149,558,148,562,149,565,152,567,156,567,159,567,161,564,163,561,166,562,169,564,172,562,176,560,175,564,173,567,169,568,168,571,171,573,171,578,174,580,175,584,171,586,170,583,169,579,166,580,162,580,164,583,158,586,156,582,155,579,152,578,150,575,152,572,151,569,150,572,149,575,147,573,146,570,146,567,145,564,145,561,145,557,145,554" href="../att/agricultural land_dbf482.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="148,586,148,585,149,585,150,585,151,585,153,586,155,584,155,585,156,586,148,586" href="../att/agricultural land_dbf482.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="237,522,233,522,234,518,234,515,236,512,236,509,233,508,232,512,230,515,229,512,227,509,227,512,229,515,226,513,225,510,222,510,220,514,219,510,217,508,214,507,216,505,219,508,221,505,224,502,228,503,230,505,233,506,236,507,237,504,240,504,240,507,239,510,238,513,237,517,238,520" href="../att/agricultural land_dbf483.html" target="AttributesFrame" title="Estate Crops" alt="Estate Crops">
+  <area shape="poly" coords="786,422,788,419,785,418,785,414,787,409,790,410,794,411,798,412,801,413,804,414,808,415,810,417,813,418,815,421,818,422,821,423,824,424,820,426,818,429,815,432,817,429,813,429,813,433,816,435,819,433,818,436,815,438,812,437,810,439,809,442,805,442,802,443,804,447,801,449,800,453,798,455,796,452,793,453,792,456,790,459,787,462,787,466,786,469,783,472,783,475,784,479,787,479,791,480,795,479,799,478,802,477,800,479,797,480,793,482,794,485,794,489,797,490,800,492,797,492,793,490,793,487,793,484,790,482,787,481,787,484,788,489,787,494,788,496,787,499,785,495,784,492,785,488,783,485,780,485,780,482,779,478,777,475,780,475,781,471,782,469,783,465,782,463,780,460,783,458,784,455,785,451,783,446,785,440,787,442,790,442,792,445,789,447,793,445,791,442,791,439,790,433,789,429,790,425,789,422,786,422,799,423,801,420,798,420,799,423,786,422,786,422" href="../att/agricultural land_dbf485.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="833,457,833,456,832,455,833,455,834,457,834,459,835,460,836,461,835,462,834,462,834,463,835,465,834,464,834,463,834,462,834,461,833,460,833,459,833,457" href="../att/agricultural land_dbf487.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="238,561,236,555,233,553,235,549,235,545,235,541,239,537,243,540,252,540,253,537,256,534,260,534,262,539,262,544,266,547,267,543,269,537,271,540,274,541,273,537,277,539,282,540,286,540,287,543,290,546,293,543,297,543,301,545,302,550,302,553,305,553,306,549,310,552,313,546,318,552,317,557,320,559,324,558,328,557,328,553,330,559,332,562,334,564,336,567,333,568,332,572,334,574,332,576,331,579,332,583,335,585,336,582,338,579,338,576,343,577,342,574,342,571,342,567,348,567,351,569,351,573,351,578,348,577,349,581,353,584,355,586,357,581,361,581,364,582,367,581,370,582,373,583,369,585,365,584,361,586,359,583,357,586,347,586,344,585,342,582,339,583,336,586,249,586,245,578,247,573,251,574,255,576,258,574,254,571,250,568,249,565,244,564,238,561" href="../att/agricultural land_dbf542.html" target="AttributesFrame" title="Estate Crops" alt="Estate Crops">
+  <area shape="poly" coords="750,539,753,542,754,544,758,546,761,549,762,552,762,555,761,558,764,559,767,559,770,559,774,558,775,562,771,562,768,562,770,565,767,563,765,560,762,562,759,563,757,565,753,566,751,564,754,562,757,560,760,557,760,554,760,550,757,548,755,546,751,546,748,544,745,541,742,540,740,537,744,537,744,533,746,537,747,540" href="../att/agricultural land_dbf547.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="749,545,752,546,756,547,759,549,760,552,761,555,758,558,756,560,753,562,750,564,748,561,746,564,748,567,747,570,744,571,743,573,741,571,738,571,736,574,733,573,732,576,736,578,737,581,735,583,732,580,727,578,725,575,724,571,719,571,718,566,718,562,713,559,711,557,715,557,715,553,718,552,720,555,721,558,725,559,723,555,723,552,727,553,728,555,732,552,736,550,738,548,742,548,746,547,749,546,752,562,755,560,750,557,750,560,752,562,749,546,749,546" href="../att/agricultural land_dbf548.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="781,499,776,500,772,502,775,505,776,509,774,512,771,515,769,512,766,510,769,510,771,508,770,505,772,501,774,498,778,498" href="../att/agricultural land_dbf549.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="841,462,844,462,844,458,843,454,845,449,847,446,848,443,847,439,845,434,843,432,840,428,838,430,838,427,840,425,843,423,846,424,849,423,851,426,851,430,848,427,844,426,847,431,849,433,848,436,851,442,851,445,848,448,846,453,845,457,847,461,851,461,851,470,850,466,847,465,843,463" href="../att/agricultural land_dbf550.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="851,477,851,476,851,477" href="../att/agricultural land_dbf550.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="194,565,198,560,209,565,213,569,219,573,210,574,206,574,206,586,199,586,202,578,197,567,194,565" href="../att/agricultural land_dbf557.html" target="AttributesFrame" title="Wetland Arable" alt="Wetland Arable">
+  <area shape="poly" coords="660,586,660,584,661,584,664,585,665,586,660,586" href="../att/agricultural land_dbf587.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="690,586,692,583,688,579,687,576,686,573,688,570,689,566,691,564,695,563,698,562,699,567,700,572,704,573,707,575,704,576,703,581,702,585,690,586" href="../att/agricultural land_dbf587.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="744,586,742,585,743,585,744,584,746,585,747,584,748,584,749,584,750,584,750,585,750,586,744,586" href="../att/agricultural land_dbf587.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="755,586,756,582,759,583,759,586,760,586,755,586" href="../att/agricultural land_dbf587.html" target="AttributesFrame" title="Dryland Arable - Food Crops" alt="Dryland Arable - Food Crops">
+  <area shape="poly" coords="385,271,387,268,391,269,389,273,392,279,392,284,390,289,389,292,386,294,387,287,389,280,387,277,384,279,384,275,385,271" href="../att/non-productive dryland_dbf2.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="851,426,849,423,851,423,851,426" href="../att/non-productive dryland_dbf25.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="747,429,750,425,751,422,753,424,756,427,760,426,761,430,764,430,762,434,759,435,756,434,758,437,761,436,765,434,768,431,771,428,773,424,779,424,782,426,780,429,777,427,774,430,770,431,767,434,765,436,760,438,759,441,756,439,753,437,750,435,748,431" href="../att/non-productive dryland_dbf64.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="555,432,553,435,550,436,547,438,544,438,542,435,539,433,534,432,530,432,526,433,523,432,520,432,519,435,512,436,507,434,503,435,500,439,498,443,495,446,491,446,486,449,482,452,481,455,479,458,475,456,472,453,468,452,467,456,462,456,460,458,456,458,452,457,447,459,442,461,439,461,437,464,432,463,425,467,421,469,416,469,413,472,409,472,404,473,401,472,398,470,392,470,393,467,397,466,394,463,394,460,397,462,401,461,404,461,407,462,409,460,404,455,402,458,400,456,397,455,393,454,392,457,391,460,389,463,385,465,382,463,379,461,382,459,385,459,388,457,389,454,387,451,386,448,390,448,392,449,395,450,398,450,401,450,404,449,408,450,411,450,414,450,414,454,410,454,411,457,415,458,417,459,422,458,422,455,426,455,429,454,431,454,432,451,435,448,437,447,438,450,441,452,444,449,447,449,450,450,452,448,454,446,456,444,459,444,462,443,465,444,468,443,471,441,474,440,477,440,480,440,482,438,484,436,486,433,489,433,492,431,494,430,497,428,499,426,503,426,506,426,509,427,512,427,515,426,518,427,521,426,524,426,527,427,530,427,533,428,536,428,539,427,543,427,546,428,548,430,551,430,554,431" href="../att/non-productive dryland_dbf67.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="780,429,777,437,775,444,773,447,772,450,771,454,769,456,766,457,766,453,764,456,761,457,760,460,756,460,757,463,757,466,756,469,759,470,756,472,752,471,748,473,747,471,749,470,746,469,746,472,744,475,748,475,751,473,755,473,758,474,757,477,754,477,753,473,752,477,749,477,748,480,748,485,746,488,748,492,748,495,744,494,744,490,742,487,744,484,741,479,741,475,741,472,740,468,737,466,736,463,733,464,730,463,727,462,728,459,731,457,730,453,732,451,731,449,730,442,728,439,730,436,733,438,737,439,740,440,741,443,745,445,746,441,744,438,741,436,741,433,746,431,749,433,752,436,755,437,757,440,760,438,763,437,766,435,769,432,773,429,776,429,779,429" href="../att/non-productive dryland_dbf75.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="556,434,557,432,560,430,563,432,565,434,567,436,570,437,568,440,566,442,565,445,565,448,569,448,566,450,563,448,560,449,558,446,559,443,557,440,559,438,558,435" href="../att/non-productive dryland_dbf78.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="545,438,549,438,548,443,547,447,544,447,542,443,544,440" href="../att/non-productive dryland_dbf87.html" target="AttributesFrame" title="Bare Land" alt="Bare Land">
+  <area shape="poly" coords="631,440,634,441,636,439,639,438,639,442,642,440,644,444,647,447,646,452,646,456,644,458,641,457,641,453,644,452,640,447,638,445,634,447,630,447,631,441" href="../att/non-productive dryland_dbf91.html" target="AttributesFrame" title="Bare Land" alt="Bare Land">
+  <area shape="poly" coords="585,448,586,443,589,443,592,445,595,444,599,444,601,445,601,448,604,446,607,446,610,446,613,447,615,444,618,443,621,442,624,441,627,440,630,440,630,444,634,447,638,445,640,447,644,450,642,453,640,454,642,459,645,457,647,454,649,457,648,461,649,464,649,469,648,473,645,474,643,470,642,467,644,464,641,466,640,469,634,471,630,471,628,468,630,463,629,459,625,463,620,465,616,464,613,465,609,468,605,471,601,472,599,477,597,480,594,481,591,481,591,477,588,475,585,476,583,479,580,481,577,484,574,485,573,488,568,494,564,499,561,494,562,490,561,483,558,480,558,474,559,470,560,467,559,461,560,464,563,463,566,466,569,466,572,462,571,457,574,455,578,455,585,454,586,450" href="../att/non-productive dryland_dbf92.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="651,448,655,445,657,447,659,444,662,445,664,448,667,448,665,451,663,453,663,457,660,459,657,462,660,464,663,461,664,464,665,470,662,466,660,467,659,471,657,468,653,467,652,463,651,460,652,456,653,451,652,448" href="../att/non-productive dryland_dbf107.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="327,464,330,464,333,464,336,465,339,464,341,462,345,464,348,467,352,469,351,472,352,477,349,482,347,479,345,476,342,476,340,475,337,472,334,468,331,466,327,464" href="../att/non-productive dryland_dbf151.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="764,471,764,469,766,469,766,468,767,469,767,470,768,471,767,472,765,471,764,471" href="../att/non-productive dryland_dbf175.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="539,500,537,497,539,495,539,492,536,489,539,488,542,489,545,487,548,488,548,484,547,480,551,479,554,475,554,478,553,481,555,484,551,486,553,489,550,490,547,490,544,490,545,493,542,496,541,499" href="../att/non-productive dryland_dbf191.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="165,502" href="../att/non-productive dryland_dbf260.html" target="AttributesFrame" title="Bare Land" alt="Bare Land">
+  <area shape="poly" coords="437,508,438,505,441,507,444,509,445,505,447,502,450,503,453,505,448,507,447,514,439,509" href="../att/non-productive dryland_dbf262.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="588,528,585,529,583,527,581,525,579,528,579,531,576,533,573,530,570,528,567,527,570,523,574,524,577,525,579,522,579,519,579,516,575,513,570,514,569,511,571,507,574,510,577,509,580,507,583,508,586,509,584,512,586,515,584,517,583,520,585,524,588,527" href="../att/non-productive dryland_dbf278.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="600,521,598,524,594,524,590,526,592,521,594,519,596,517,597,513,600,512,597,509,601,508,604,511,605,515,601,518,600,521" href="../att/non-productive dryland_dbf281.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="668,518,670,517,671,516,672,515,673,514,674,513,675,515,675,516,674,517,673,518,672,518,670,518,668,518" href="../att/non-productive dryland_dbf293.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="836,512,837,512,839,513,837,513,837,514,836,513" href="../att/non-productive dryland_dbf294.html" target="AttributesFrame" title="Bare Land" alt="Bare Land">
+  <area shape="poly" coords="679,519,679,518,681,517,682,517,682,516,683,516,684,517,684,518,684,520,681,520,680,519,679,519" href="../att/non-productive dryland_dbf298.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="754,525,751,522,754,521,757,518,756,521,755,524" href="../att/non-productive dryland_dbf306.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="844,530,844,527,846,524,845,521,848,521,851,522,851,526,848,524,849,528,845,528,844,530" href="../att/non-productive dryland_dbf313.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="740,522,743,524,746,524,749,527,747,530,749,533,749,537,749,540,746,539,746,535,742,535,742,540,745,541,748,544,748,547,745,547,739,548,740,544,739,541,737,539,735,541,731,540,735,538,734,534,735,531,734,528,734,524,738,525,740,522" href="../att/non-productive dryland_dbf317.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="362,539,362,542,363,548,362,552,356,555,352,554,349,555,348,558,364,563,374,563,377,565,373,566,371,568,370,572,367,573,364,573,361,575,361,579,357,581,355,586,353,584,351,582,348,579,351,578,351,573,351,570,348,567,343,565,343,570,342,573,343,576,340,577,338,574,338,578,336,581,335,584,332,583,331,579,332,576,334,574,332,572,333,568,336,567,334,564,332,562,330,559,330,555,332,551,336,548,340,545,337,542,340,538,341,535,343,533,345,530,346,526,349,527,353,528,357,528,358,531,356,534,354,539,349,542,348,545,352,544,356,543,357,540,360,538,357,578,360,577,357,578,357,578,360,538,360,538" href="../att/non-productive dryland_dbf318.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="691,539,695,538,699,538,699,541,702,545,703,548,703,551,704,555,700,553,697,551,694,549,689,547,689,544,691,540" href="../att/non-productive dryland_dbf333.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="822,449,820,446,817,450,814,453,816,456,817,459,813,460,813,464,808,464,809,461,808,458,808,454,805,449,803,446,803,442,806,441,810,439,812,437,815,438,818,436,820,434,817,434,813,435,814,432,814,429,817,427,817,430,819,427,822,426,825,425,827,427,830,429,833,430,836,431,839,429,842,430,844,433,845,436,848,440,847,446,845,449,844,452,844,456,845,460,842,462,839,463,837,465,835,467,835,470,833,472,832,470,834,466,834,463,836,460,834,456,833,454,833,457,829,458,827,460,825,457,822,454,822,450" href="../att/non-productive dryland_dbf488.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="404,497,407,493,411,491,416,491,418,493,418,497,422,498,427,500,429,503,434,507,433,510,428,512,431,517,435,519,435,523,430,523,432,527,427,530,428,533,434,533,437,535,440,537,436,540,432,537,429,537,428,540,431,543,435,543,439,543,442,540,444,538,447,533,452,534,455,535,453,538,451,542,448,542,447,545,446,549,442,549,437,548,436,553,432,558,437,564,440,567,437,569,434,571,435,577,440,579,444,582,441,586,423,586,429,584,430,580,429,576,424,574,420,574,415,576,412,580,409,582,404,579,397,580,392,579,387,581,386,578,383,579,382,582,379,581,379,578,375,577,373,578,372,574,375,574,378,574,379,571,381,569,381,566,379,563,374,563,364,563,350,560,349,555,352,554,356,555,361,554,363,548,362,542,366,545,364,550,365,554,367,559,371,559,371,556,368,551,370,547,373,543,369,541,367,537,366,540,362,539,358,538,357,543,354,542,349,546,349,542,353,541,354,535,358,533,357,528,361,523,363,518,368,519,372,521,376,519,378,514,382,513,387,509,391,504,395,505,395,509,391,512,388,515,388,519,390,522,391,526,392,531,395,533,395,526,396,521,398,518,399,514,400,511,402,506,404,497" href="../att/non-productive dryland_dbf543.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="726,513,728,511,730,513,732,516,731,519,727,520,727,524,724,526,723,529,723,533,722,536,718,539,715,539,716,536,713,535,709,534,706,534,708,531,709,528,711,527,715,527,719,528,718,524,721,526,720,522,721,519,724,515,726,513" href="../att/non-productive dryland_dbf546.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="842,499,841,495,844,497,847,495,848,498,850,500,851,504,848,504,849,501,846,501,844,504,843,507,841,504,837,504,840,502,842,499" href="../att/non-productive dryland_dbf554.html" target="AttributesFrame" title="Bare Land" alt="Bare Land">
+  <area shape="poly" coords="838,504,841,505,843,507,844,504,846,501,848,499,848,503,851,520,849,516,846,514,843,513,840,515,838,512,836,510,837,507,847,508,846,511,843,513,847,513,847,509,847,508,837,507,837,507" href="../att/non-productive dryland_dbf555.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="851,502,850,500,847,498,847,494,850,492,851,502" href="../att/non-productive dryland_dbf555.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="491,469,492,474,495,474,499,476,503,476,506,477,513,478,518,479,524,480,532,482,533,485,531,490,527,494,530,501,531,504,528,508,524,509,521,510,516,510,513,511,511,514,512,519,511,522,509,526,505,525,503,527,500,531,498,533,497,537,490,536,487,534,484,535,479,535,475,538,474,541,474,546,473,550,469,552,464,554,461,555,455,560,452,569,445,577,442,579,436,578,434,572,437,569,440,567,437,564,433,561,436,556,437,548,440,548,444,549,447,547,447,543,451,542,451,539,456,537,452,534,449,535,445,536,444,540,439,543,435,543,432,545,428,540,428,536,432,537,436,540,440,537,437,535,434,533,428,533,425,531,432,529,427,524,434,523,436,521,431,517,428,514,431,512,434,507,439,508,444,513,450,516,455,514,461,514,467,512,466,507,464,503,468,500,475,502,480,502,485,503,493,502,498,502,499,496,493,492,486,491,479,488,475,483,475,475,478,473,486,469,491,469" href="../att/non-productive dryland_dbf562.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="765,397,768,399,771,400,774,401,777,402,778,406,778,410,776,414,779,418,781,421,783,424,779,424,774,423,772,426,769,429,766,433,763,435,759,437,755,436,759,435,762,434,766,431,762,431,761,428,758,426,753,424,751,422,750,418,752,415,751,411,746,409,748,412,747,415,743,423,739,422,735,423,733,421,729,418,730,415,732,412,736,412,739,409,742,406,746,406,749,407,752,405,755,402,759,402,763,401,765,398,737,415,739,412,737,415,737,415,765,398,765,398" href="../att/non-productive dryland_dbf568.html" target="AttributesFrame" title="Savanna" alt="Savanna">
+  <area shape="poly" coords="732,410,734,407,736,405,738,403,741,403,744,401,746,403,749,403,752,402,755,401,758,399,761,398,764,398,765,401,761,401,758,403,754,403,751,406,746,406,744,404,741,408,737,410,735,412,732,410" href="../att/non-productive dryland_dbf569.html" target="AttributesFrame" title="Bare Land" alt="Bare Land">
+  <area shape="poly" coords="336,586,338,583,342,582,344,585,347,585,336,586" href="../att/non-productive dryland_dbf588.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="357,586,359,583,359,584,361,585,361,586,357,586" href="../att/non-productive dryland_dbf589.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+  <area shape="poly" coords="364,586,366,584,370,584,373,584,376,586,364,586" href="../att/non-productive dryland_dbf589.html" target="AttributesFrame" title="Grassland" alt="Grassland">
+</map>
+</center>
+</body>
+</html>
